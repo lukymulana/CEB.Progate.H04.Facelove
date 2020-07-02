@@ -1,0 +1,15 @@
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 1s;  
+  animation-fill-mode: forwards;
+  animation-iteration-count: 10;
+}
+
+@keyframes example {
+  from {top: 0px;}
+  to {top: 0px; background-color: blue;}
+}
